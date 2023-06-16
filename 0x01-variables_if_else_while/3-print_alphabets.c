@@ -12,6 +12,7 @@ int main(void)
         for (i = 0; i < 52; i++)
         {
                 putchar(a[i]);
+		putchar('$');
         }
         putchar('\n');
         return (0);
