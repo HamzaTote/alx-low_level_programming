@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - a function that prints alphabets
- * Return : (0) Success
- * print_alphabet : function that prints the alphabet
+ * print_alphabet - function that prints the alphabet
+ *
+ * Description: this function prints the alphabet from a to z
  */
 
 void print_alphabet(void)
