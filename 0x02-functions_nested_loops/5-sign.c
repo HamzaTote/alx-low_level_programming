@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * print_sign -return 1 and prints + if greater than 0
  * and return 0 and print 0 if is zero
@@ -10,17 +10,17 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		return (+);
+		_putchar(43);
 		return (1);
 	}
 	else if (n == 0)
 	{
-		return(0);
+		_putchar(48);
 		return (0);
 	}
 	else
 	{
-		return(-);
+		_putchar(45);
 		return (-1);
 	}
 }
