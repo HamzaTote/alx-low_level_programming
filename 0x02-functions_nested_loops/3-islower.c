@@ -2,6 +2,7 @@
 
 /**
  *_islower - a function that check if letter is lower case or not
+ *@c: the charavter in ASCII code
  *Description : this is a function that return 1 if lower case and 0 if not
  *Return: (1) Success (0) Fail
  */
